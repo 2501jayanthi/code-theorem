@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <link rel = "stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="sclassebar">    
+            <div class="side">
+                <div class="heading">
+                    <img class="logo" src="./pictures/Logo.png" />
+                   
+                </div> 
+                <hr />   
+            <div class="side-content">
+                <div class="icon-container">
+                    <img class="icon" src="./pictures/dashboard-on.png"/>
+                    <button class="btn">Dashboard</button><br/>
+                </div>   
+                <div class="icon-container">
+                    <img class="icon" src="./pictures/invoice-off.png" />
+                    <button class="btn">Invoices</button><br/>
+                </div> 
+                <div class="icon-container">
+                    <img class="icon" src="./pictures/projects-off.png" />
+                    <button class="btn">Proposals</button><br/>
+                </div> 
+                <div class="icon-container">
+                    <img class="icon" src="./pictures/services-off.png" />
+                    <button class="btn">Services</button><br/>
+
+                </div> 
+                <div class="icon-container">
+                    <img class="icon" src="./pictures/transactions-off.png" />
+                    <button class="btn">Transactions</button><br/>
+                </div>            
+                <div class="icon-container">
+                    <img class="icon" src="./pictures/projects-off.png" />
+                    <button class="btn">Projects</button><br/>
+                </div> 
+                <div class="icon-container">
+                    <img class="icon" src="./pictures/customers.png" />
+                    <button class="btn">Customers</button>
+                </div> 
+                
+                
+            </div>
+            <div class="settings">
+                <div class="icon-container">
+                    <img class="icon" src="./pictures/settings-off.png" />
+                    <button class="btn" id = "settingbtn" onclick="onSettings()">Settings</button><br/>
+                </div> 
+                <div class="icon-container">
+                    <img class="icon" src="./pictures/logout-off.png" />
+                    <button id = "logoutbtn" class="btn" onclick="onLogout()">Log Out</button>
+                </div> 
+            </div>
+            </div>
+
+        </div>
+        <div class="content-container">
+            <div class="content-heading">
+                <div class="head-con">
+                    <div>
+                    <h4 class="lll">Hi, Welcome back <span class="ddd">Robert</span></h4>
+                    </div>
+                    <div class="kkk">
+                        <div class="nnn">
+                            <img class="search" src="./pictures/search.png" />
+                            <input type="search" placeholder="Search..." />
+                        </div>
+                        <div class="dot-con">
+                        <img class="notification" src="pictures/notifications.png" />
+                        <p class="dot"></p>
+                        </div>
+                        <img src="./pictures/Ellipse 3.png" />
+                    </div>
+                </div>
+                <p class="lll">Finance Overview</p>
+            </div>
+            <div class="all-in-one">
+                <div class="box-container">
+                    <div class="con1">
+                        <b>$ 2,77,120</b>
+                        <p>Sales</p>
+                        <img class="income-image" src = './pictures/insights.png' />
+                    </div>
+                    <div class="con1">
+                        <b>$ 60,100</b>
+                        <p>Expense</p>
+                        <img class="income-image" src="./pictures/Expense.png" />
+                    </div>
+                    <div class="con1">
+                        <b>$ 57,230</b>
+                        <p>Profit</p>
+                        <img class="income-image" src="./pictures/Profit.png" />
+                    </div>
+                    <div class="con1">
+                        <b>$ 1,60,124</b>
+                        <p>Income</p>
+                        <img class="income-image" src="./pictures/Income.png" />
+                    </div>
+                </div>
+                <div class="content-content">
+                    <div class="amo">
+                        <div class="Current-project">
+                        <b>Current Projects</b>
+                        <button class="cbtn">Create</button>
+                        </div>
+                        <div class="table-header">
+                            <b class="th">Project Name</b>
+                            <b class="th">Customer</b>
+                            <b class="th">Sent Date</b>
+                            <b class="th1">Amount</b>
+                        </div>
+                        <div>
+                            <div class="table-details">
+                                <p class="td">Travel app design</p>
+                                <p class="td">Jacob Jones</p>
+                                <p class="td">28 Oct 2022</p>
+                                <p class="td">$ 240.90 <button class = "sent-text">SENT</button></p>
+                            </div>
+                            <div class="table-details">
+                                <p class="td1">UX Research for Event management app</p>
+                                <p class="td">Wade Warren</p>
+                                <p class="td">18 Oct 2022</p>
+                                <p class="td">$ 120.00 <button class="draft-text">DRAFT</button></p>
+                            </div>
+                            <div class="table-details">
+                                <p class="td">Redesign - Food delivery app</p>
+                                <p class="td">Annette Black</p>
+                                <p class="td">15 Oct 2022</p>
+                                <p class="td">$ 351.00 <button class="draft-text">PAID</button></p>
+                            </div>
+                            <div class="table-details">
+                                <p class="td">Web App - Online Learning</p>
+                                <p class="td">Cameron Williamson</p>
+                                <p class="td">15 Oct 2022</p>
+                                <p class="td">$ 240.90 <button class="paid-text">PAID</button></p>
+                            </div>
+                            <div class="table-details">
+                                <p class="td">Railway web casestudy</p>
+                                <p class="td">Robert Fox</p>
+                                <p class="td">13 Oct 2022</p>
+                                <p class="td">$ 153.00 <button class="sent-text">SENT</button></p>
+                            </div>
+                            <div class="table-details">
+                                <p class="td">Responsive web design</p>
+                                <p class="td">Floyd Miles</p>
+                                <p class="td">06 Oct 2022</p>
+                                <p class="td">$ 140.90 <button class="rejected-text">REJECTED</button></p>
+                            </div>
+                            <div class="table-details">
+                                <p class="td">Music app design</p>
+                                <p class="td">Theresa Webb</p>
+                                <p class="td">04 Oct 2022</p>
+                                <p class="td">$ 240.90 <button class="draft-text">DRAFT</button></p>
+                            </div>
+                        </div>
+                    </div>     
+                </div>
+            
+                <div class="event-container">
+                        <b>Events</b>
+                        <div class="profile-container">
+                            <div>
+                                <img class="img" src="./pictures/Ellipse 46.png" alt="img">                                
+                            </div>
+                            <div>
+                                <b class="par">Wade Warren</b>
+                                <p class="par">🎂 <span class="celebrate">Birthday .</span> Today</p>
+                            </div>
+                            <div>
+                                <button  id = "wish" class="wish" onclick="onWish()">Wish</button>
+
+                            </div>
+                        </div>
+                        <div class="profile-container">
+                            <div>
+                                <img class="img" src="./pictures/Ellipse 45.png" alt="second">                            
+                            </div>
+                            <div>
+                                <b class="par">Wade Warren</b>
+                                <p class="par">🎉<span class="celebrate">Joining Us .</span> Today</p>
+                            </div>
+                            <div>
+                                <button id = "congratulations" class="wish" onclick="onJoining()">Congratulations</button>
+                            </div>
+                        </div>
+                        <div class="profile-container">
+                            <div>
+                                <img class="img" src="./pictures/Ellipse 47.png" alt="third" >  
+                            </div>
+                            <div>
+                                <b class="par">Wade Warren</b>
+                                <p class="par">💼 Working Anniversary . 7 September, 2022</p>
+                            </div>
+                        </div>
+                        <div class="profile-container">
+                            <div>
+                                <img class="img" src="./pictures/Ellipse 3.png">                      
+                            </div>
+                            <div>
+                                <b class="par">Wade Warren</b>
+                                <p class="par">🎂 <span class="celebrate">Birthday</span>. Tomorrow</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
